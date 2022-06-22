@@ -1,0 +1,20 @@
+# bo'linmani qo'shish va ayrish amallari bilan topish
+
+x = int(input("x = "))
+y = int(input("y = "))
+yc = y
+if x == 0 or y == 0:
+    print(0)
+elif x > y and x > 0 and y > 0:
+    count = 1
+    while y+yc <= x:
+        count += 1
+        y += yc
+    if y == x:
+        print(count)
+    else:
+        rem = x - y
+        
+        print("butun:", count, "qoldiq:",rem)
+else:
+    print("Buni yechimi topilmadi")

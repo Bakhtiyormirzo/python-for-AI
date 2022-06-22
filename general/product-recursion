@@ -1,0 +1,18 @@
+# kopaytmani qo'shish va ayrish ammalari bilan topish
+# recursion 
+
+def kopaytir(x, y):
+    if x == 0 or y == 0:
+        return 0
+    elif x < 0 and y < 0:
+        return kopaytir(abs(x), abs(y))
+    elif x < 0:
+        return -kopaytir(abs(x), y)
+    elif y < 0:
+        return -kopaytir(x, abs(y))
+    else:
+        return x + kopaytir(x, y-1)
+
+x = int(input("x = "))
+y = int(input("y = "))
+print(kopaytir(x,y))

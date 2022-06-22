@@ -1,0 +1,35 @@
+# kopaytmani qo'shish va ayrish ammalari bilan topish
+# while 
+
+x = int(input("x = "))
+y = int(input("y = "))
+xc = x
+
+if x == 0 or y == 0:
+    print(0)
+elif x < 0 and y < 0:
+    x, y = abs(x), abs(y)
+    while y > 1:
+        x += abs(xc)
+        y -= 1
+    print(x)
+    
+elif x < 0:
+    x = abs(x)
+    while y > 1:
+        x += abs(xc)
+        y -= 1
+    print(-x)
+
+elif y < 0:
+    y = abs(y)
+    while y > 1:
+        x += xc
+        y -= 1
+    print(-x)
+    
+else:
+    while y > 1:
+        x += xc
+        y -= 1
+    print(x)
