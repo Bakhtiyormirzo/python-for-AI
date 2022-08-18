@@ -1,0 +1,26 @@
+# 4-savol
+	nxn o'lchamli matritsa berilgan, 
+matritsani 90 gradusga o'ngga buruvchi dastur yarating.
+
+Kirishda n matritsa o'lchami kiritiladi va keyingi nxn 
+qatorda matritsa elementlari. Chiqishda matritsa
+elementlari  n ta qatorda probel bilan ajratilgan holatda chiqariladi.
+
+(Juda muhim eslatma, input kiritishlarda va print 
+chiqarishlarda hech qanday so'z ishlatilmaydi, 
+faqat kiruvchi qiymatlar yoki natijalar chiqishi kerak. 
+Quyidagi misollarga qarang!)
+
+Kirishda
+3
+1
+2
+3
+4
+5
+6
+7
+8
+9            ------------           7 4 1
+                                    8 5 2
+                                    9 6 3

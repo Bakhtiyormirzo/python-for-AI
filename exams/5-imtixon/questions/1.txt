@@ -1,0 +1,17 @@
+# 1-savol
+	Regex: Kiritilgan sanani tekshiruvchi regex tuzing, 
+kabisa va kabisa emasligi inobotga olinsin.
+Kiruvchi format kun-oy-yil ko'rinishida bo'ladi.
+
+Kirishda satr kiritiladi, chiqishda agar shunday sana
+mavjud bo'lsa, 1 aks holda 0 chiqariladi.
+
+(Juda muhim eslatma, input kiritishlarda va print 
+chiqarishlarda hech qanday so'z ishlatilmaydi, 
+faqat kiruvchi qiymatlar yoki natijalar chiqishi kerak. 
+Quyidagi misollarga qarang!)
+
+Masalan,
+Kirishda                                      Chiqishda
+12-12-2012             -----------            1
+32-12-2021             -----------            0

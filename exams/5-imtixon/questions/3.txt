@@ -1,0 +1,17 @@
+# 3-savol
+	Person nomli class yarating. U atribut sifatida name va age
+satr sifatidagi so'zlarni olsin. class ga myfunc nomli funksiya
+tuzing. U "Hello my name is {self.name}" gapini qaytarsin.
+Kirishda 2 ta qatorda satr kiritiladi, name va age uchun.
+Chiqishda yuqoridagi gap mos name uchun myfunc funksiyasi natijasi
+print orqali chiqariladi. Diqqat, print class ichida ishlatilmaydi!
+
+(Juda muhim eslatma, input kiritishlarda va print 
+chiqarishlarda hech qanday so'z ishlatilmaydi, 
+faqat kiruvchi qiymatlar yoki natijalar chiqishi kerak. 
+Quyidagi misollarga qarang!)
+
+Masalan,
+Kirishda                              Chiqishda
+Shaxboz
+21            ------------            Hello my name is Shaxboz

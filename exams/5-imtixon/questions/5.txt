@@ -1,0 +1,23 @@
+# 5-savol
+	Triangle nomli class yarating. U o'ziga 3 ta atribut olsin.
+Bu atributlar tekislikdagi nuqta ko'rinishida bo'lsin.
+Ular yordamida uchlari class atributlari bo'lgan uchburchak yuzasi topilsin.
+Agar uchlari bu nuqtalarda bo'lgan uchburchak mavjud bo'lmasa, 0 chiqariladi.
+
+Kirishda 6 ta haqiqiy son, mos ravishda 1-nuqta, 2-nuqta va 3-nuqta koordinatalari.
+Chiqishda uchlari shu nuqtalarda bo'lgan uchburchak yuzasini 2 birlikkacha yaxlitlab
+chiqariladi. Agar bunday uchburchak mavjud bo'lmasa 0 chiqariladi.
+
+(Juda muhim eslatma, input kiritishlarda va print 
+chiqarishlarda hech qanday so'z ishlatilmaydi, 
+faqat kiruvchi qiymatlar yoki natijalar chiqishi kerak. 
+Quyidagi misollarga qarang!)
+
+Masalan,
+Kirishda                               Chiqishda
+1
+2
+5
+6
+4
+4          ----------------            2.0
